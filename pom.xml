@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>mojo-parent</artifactId>
-    <version>84</version>
+    <version>80</version>
   </parent>
 
   <artifactId>exec-maven-plugin</artifactId>
@@ -132,7 +132,8 @@
   </scm>
 
   <properties>
-    <mavenVersion>3.6.3</mavenVersion>
+    <mavenVersion>3.6.1</mavenVersion>
+    <minimalMavenBuildVersion>3.6.1</minimalMavenBuildVersion>
     <slf4j.version>1.7.36</slf4j.version>
     <asm.version>9.7</asm.version>
     <invoker.parallelThreads>1C</invoker.parallelThreads>
